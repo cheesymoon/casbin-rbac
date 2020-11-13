@@ -1,0 +1,392 @@
+[
+  {
+    "id": 0,
+    "title": "Rustic Fresh Shoes",
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "material": "Fresh",
+    "color": "indigo",
+    "department": "Movies",
+    "price": 39,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 15,
+      "realMaterial": "Fresh"
+    },
+    "viewOnly": {
+      "realPrice": 32,
+      "additionalDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "manufacturer": "Cocos (Keeling) Islands",
+      "manufacturerCountryCode": "IS",
+      "email": "Raphaelle_Johns@gmail.com",
+      "phone": "431-385-8025"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Tasty Rubber Car",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "material": "Granite",
+    "color": "maroon",
+    "department": "Baby",
+    "price": 85,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 16,
+      "realMaterial": "Soft"
+    },
+    "viewOnly": {
+      "realPrice": 37,
+      "additionalDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "manufacturer": "Germany",
+      "manufacturerCountryCode": "TC",
+      "email": "Elmira_Little0@gmail.com",
+      "phone": "891.770.3195 x30261"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Ergonomic Rubber Keyboard",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "material": "Granite",
+    "color": "mint green",
+    "department": "Grocery",
+    "price": 67,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": true,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 17,
+      "realMaterial": "Cotton"
+    },
+    "viewOnly": {
+      "realPrice": 5,
+      "additionalDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "manufacturer": "Lao People's Democratic Republic",
+      "manufacturerCountryCode": "LI",
+      "email": "Mathilde35@yahoo.com",
+      "phone": "1-411-266-5655"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Handcrafted Soft Bacon",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    "material": "Fresh",
+    "color": "turquoise",
+    "department": "Movies",
+    "price": 9,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 12,
+      "realMaterial": "Soft"
+    },
+    "viewOnly": {
+      "realPrice": 31,
+      "additionalDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "manufacturer": "Saint Helena",
+      "manufacturerCountryCode": "ID",
+      "email": "Fausto.Hoeger@hotmail.com",
+      "phone": "(793) 508-2358 x653"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Handmade Rubber Keyboard",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "material": "Plastic",
+    "color": "orange",
+    "department": "Computers",
+    "price": 56,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 5,
+      "realMaterial": "Granite"
+    },
+    "viewOnly": {
+      "realPrice": 28,
+      "additionalDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "manufacturer": "Germany",
+      "manufacturerCountryCode": "YE",
+      "email": "Wilhelmine.Ratke47@gmail.com",
+      "phone": "993.449.4395"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Generic Plastic Bacon",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "material": "Soft",
+    "color": "silver",
+    "department": "Garden",
+    "price": 83,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": true,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 12,
+      "realMaterial": "Fresh"
+    },
+    "viewOnly": {
+      "realPrice": 62,
+      "additionalDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "manufacturer": "Germany",
+      "manufacturerCountryCode": "UG",
+      "email": "Allie_Abernathy@gmail.com",
+      "phone": "529.874.3633 x7428"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Practical Soft Hat",
+    "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+    "material": "Granite",
+    "color": "pink",
+    "department": "Music",
+    "price": 13,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": true,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 8,
+      "realMaterial": "Wooden"
+    },
+    "viewOnly": {
+      "realPrice": 72,
+      "additionalDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "manufacturer": "Virgin Islands, U.S.",
+      "manufacturerCountryCode": "KG",
+      "email": "Alvena.Mills@gmail.com",
+      "phone": "(435) 242-9286"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Tasty Cotton Sausages",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "material": "Metal",
+    "color": "cyan",
+    "department": "Electronics",
+    "price": 26,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 10,
+      "realMaterial": "Wooden"
+    },
+    "viewOnly": {
+      "realPrice": 27,
+      "additionalDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "manufacturer": "Oman",
+      "manufacturerCountryCode": "MW",
+      "email": "Johan.Mosciski24@yahoo.com",
+      "phone": "615.327.1173 x458"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Incredible Soft Table",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "material": "Steel",
+    "color": "lavender",
+    "department": "Computers",
+    "price": 30,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": true,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 6,
+      "realMaterial": "Metal"
+    },
+    "viewOnly": {
+      "realPrice": 16,
+      "additionalDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "manufacturer": "American Samoa",
+      "manufacturerCountryCode": "IO",
+      "email": "Breanne.Murazik37@gmail.com",
+      "phone": "1-293-753-7509 x71382"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Generic Wooden Bike",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "material": "Granite",
+    "color": "maroon",
+    "department": "Tools",
+    "price": 41,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 8,
+      "realMaterial": "Plastic"
+    },
+    "viewOnly": {
+      "realPrice": 9,
+      "additionalDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "manufacturer": "French Polynesia",
+      "manufacturerCountryCode": "SC",
+      "email": "Rosalee.Barton@hotmail.com",
+      "phone": "590-648-1877 x44714"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Refined Metal Shoes",
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "material": "Metal",
+    "color": "plum",
+    "department": "Health",
+    "price": 62,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 1,
+      "realMaterial": "Soft"
+    },
+    "viewOnly": {
+      "realPrice": 55,
+      "additionalDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "manufacturer": "Romania",
+      "manufacturerCountryCode": "QA",
+      "email": "Reynold42@hotmail.com",
+      "phone": "(898) 967-1932 x211"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Handmade Granite Tuna",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "material": "Soft",
+    "color": "silver",
+    "department": "Clothing",
+    "price": 33,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": false,
+      "isPoisoned": true
+    },
+    "managerOnly": {
+      "managerStake": 7,
+      "realMaterial": "Rubber"
+    },
+    "viewOnly": {
+      "realPrice": 55,
+      "additionalDescription": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "manufacturer": "Germany",
+      "manufacturerCountryCode": "HT",
+      "email": "Nasir42@yahoo.com",
+      "phone": "689.953.6029"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Unbranded Soft Pizza",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "material": "Metal",
+    "color": "azure",
+    "department": "Tools",
+    "price": 62,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": false,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 14,
+      "realMaterial": "Fresh"
+    },
+    "viewOnly": {
+      "realPrice": 12,
+      "additionalDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "manufacturer": "Malawi",
+      "manufacturerCountryCode": "MS",
+      "email": "Alta_Huel@hotmail.com",
+      "phone": "249-619-2749"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Incredible Metal Keyboard",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "material": "Cotton",
+    "color": "violet",
+    "department": "Clothing",
+    "price": 16,
+    "adminOnly": {
+      "isFake": true,
+      "isScam": false,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 13,
+      "realMaterial": "Fresh"
+    },
+    "viewOnly": {
+      "realPrice": 65,
+      "additionalDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "manufacturer": "Lesotho",
+      "manufacturerCountryCode": "CF",
+      "email": "Louie85@gmail.com",
+      "phone": "558.565.9928 x48643"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Tasty Wooden Soap",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "material": "Cotton",
+    "color": "gold",
+    "department": "Grocery",
+    "price": 66,
+    "adminOnly": {
+      "isFake": false,
+      "isScam": true,
+      "isPoisoned": false
+    },
+    "managerOnly": {
+      "managerStake": 13,
+      "realMaterial": "Rubber"
+    },
+    "viewOnly": {
+      "realPrice": 68,
+      "additionalDescription": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "manufacturer": "Saudi Arabia",
+      "manufacturerCountryCode": "PH",
+      "email": "Alexis.Kessler1@hotmail.com",
+      "phone": "(682) 551-5212 x6964"
+    }
+  }
+]

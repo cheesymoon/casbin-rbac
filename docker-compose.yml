@@ -1,0 +1,67 @@
+version: '3'
+
+services:
+  casbin_mysql:
+    image: mysql:5.7
+    container_name: casbin_mysql
+    expose:
+      - 3306
+    # ports:
+    #   - "3306:3306"
+    volumes:
+      - "./docker-data/mysql-data:/var/lib/mysql"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=IamAdmin
+      - MYSQL_DATABASE=casbin
+
+  casbin_phpmyadmin:
+    image: phpmyadmin/phpmyadmin:4.7
+    container_name: casbin_phpmyadmin
+    depends_on:
+      - "casbin_mysql"
+    links:
+      - "casbin_mysql"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=casbin_mysql
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 8090:80
+    volumes:
+      - "./docker-data/phpmyadmin:/sessions"
+
+  casbin_rbac:
+    image: node:12
+    container_name: casbin_rbac
+    working_dir: /usr/src/app
+    command: npm start
+    volumes:
+      - "./casbin-rbac:/usr/src/app"
+    ports:
+      - "3001:3001"
+    links:
+      - "casbin_mysql"
+  
+  casbin-role-backend:
+    container_name: casbin-role-backend
+    image: node:12
+    working_dir: /usr/src/app
+    command: npm run dev
+    depends_on:
+      - "casbin_mysql"
+    volumes:
+      - "./casbin-role-backend:/usr/src/app"
+    ports:
+      - "5000:5000"
+
+  # casbin-role-mgt-ui:
+  #   container_name: casbin-role-mgt-ui
+  #   image: node:12
+  #   working_dir: /usr/src/app
+  #   command: npm start
+  #   volumes:
+  #     - "./casbin-role-mgt-ui:/usr/src/app"
+  #   ports:
+  #     - "3000:3000"

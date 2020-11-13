@@ -1,0 +1,6 @@
+{
+  "svg.preview.background": "custom",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

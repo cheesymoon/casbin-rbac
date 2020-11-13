@@ -1,0 +1,23 @@
+{
+  "name": "casbin-rbac",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "casbin": "^5.2.0",
+    "casbin-basic-adapter": "^0.1.0",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "nodemon -L src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}

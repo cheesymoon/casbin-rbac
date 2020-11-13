@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-unused-expressions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "new-cap": 0,
+    "array-callback-return": 0,
+    "no-param-reassign": 0,
+    "no-confusing-arrow": 0,
+    "func-names": 0,
+    "no-bitwise": 0,
+    "comma-dangle": "error",
+    "no-plusplus": 0
+  }
+}

@@ -1,0 +1,27 @@
+p, role:manager, article, delete
+p, role:manager, article, read-manager
+
+g, admin, role:root
+g, alice, role:manager
+
+
+
+p, mam1, am-1, view
+p, mam1, am-2, view
+p, mam1, am-3, view
+p, mam1, am-4, view
+
+
+
+
+p, german_articles, article_country_Germany, full-view
+g, hans, german_articles
+g, umut, german_articles
+
+
+p, bob, article_0, full-view
+p, bob, article_1, full-view
+p, bob, article_3, full-view
+
+
+
